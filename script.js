@@ -67,9 +67,3 @@ function reset() {
 function loseCheck() {
   return Number(score.textContent) === 0;
 }
-
-again.addEventListener("click", function () {
-  reset();
-});
-
-check.addEventListener("click", game);
